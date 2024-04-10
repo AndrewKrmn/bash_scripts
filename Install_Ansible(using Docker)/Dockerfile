@@ -7,3 +7,4 @@ RUN apt-get update; \
 RUN pip3 install --upgrade pip; \
     pip3 install "ansible==${ANSIBLE_VERSION}"; \
     pip3 install ansible
+//docker run -it ansible
